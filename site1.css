@@ -100,3 +100,46 @@ li:nth-of-type(7) {
     
 } */
 
+.container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.welcome {
+    flex: 3;
+    background: rgb(116, 48, 86);
+}
+
+.welcome h1 {
+    font-family: "Niramit", sans-serif;
+    color: rgba(245, 205, 131, 0.671);
+    text-transform: uppercase;
+}
+
+.welcome p {
+    font-family: 'Contrail One', cursive;
+}
+
+.side-1 {
+    flex: 1;
+    background-color: rgb(61, 62, 63);
+    margin-left: 5px;
+}
+
+.side-1 h2 {
+    font-family: 'Assistant', sans-serif;
+    color: rgba(245, 205, 131, 0.671);
+    text-transform: uppercase;
+}
+
+.side-1 p {
+    font-family: "Niramit", sans-serif;
+    font-weight: 700;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border: 10px solid rgb(61, 62, 63);
+    background:rgba(245, 205, 131, 0.671);
+}
